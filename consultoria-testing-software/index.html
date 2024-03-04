@@ -34,6 +34,15 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-X5S9NP9Z1W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-X5S9NP9Z1W');
+</script>
 </head>
 
 <body>
@@ -99,7 +108,7 @@
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
-        <h1 class="text-light"><a href="index.html"><span>QA/QC  Software SR | Luis Carlos Marín Campos </span></a></h1>
+        <h1 class="text-light"><a href="index.html"><span>SR QA/QC Software | Luis Carlos Marín Campos </span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
@@ -107,9 +116,8 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Iniciar</a></li>
-          <li><a class="nav-link scrollto" href="#about">Conocimientos</a></li>
+          <li><a class="nav-link scrollto" href="#skills">Habilidades</a></li>
           <li><a class="nav-link scrollto" href="#services">Servicios</a></li>
-          <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
          <li><a class="nav-link scrollto" href="#contact">Solicitar Consulta</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -121,7 +129,7 @@
   <main id="main">
 
     <!-- ======= About Us Section ======= -->
-    <section id="about" class="about">
+    <section id="skills" class="about">
       <div class="container">
 
         <div class="section-title">
@@ -320,8 +328,8 @@
 
       <div class="container">
         <div class="section-title">
-          <h2>Contact Us</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Solicitar Consulta</h2>
+          <p>Si tiene dudas sobre mis servicios, quiere conocer tarifas específicas o desea contarme sobre su proyecto, por favor escríbame. Las consultas son virtuales y con la cámara encendida para generar confianza y transparencia. <strong> Preguntar es gratis</strong>, estaré atento para ayudarle.</p>
         </div>
       </div>
 
@@ -335,23 +343,23 @@
 
               <div class="col-lg-6 info d-flex flex-column align-items-stretch">
                 <i class="bx bx-map"></i>
-                <h4>Address</h4>
-                <p>A108 Adam Street,<br>New York, NY 535022</p>
+                <h4>Dirección</h4>
+                <p>Rio Negro,<br>Antioquia, Colombia</p>
               </div>
               <div class="col-lg-6 info info-bg d-flex flex-column align-items-stretch">
                 <i class="bx bx-phone"></i>
-                <h4>Call Us</h4>
-                <p>+1 5589 55488 55<br>+1 5589 22548 64</p>
+                <h4>WhatsApp</h4>
+                <p>+57 305 224 3948</p>
               </div>
               <div class="col-lg-6 info info-bg d-flex flex-column align-items-stretch">
                 <i class="bx bx-envelope"></i>
-                <h4>Email Us</h4>
-                <p>contact@example.com<br>info@example.com</p>
+                <h4>Email</h4>
+                <p>luiscarlosmarca@gmail.comm</p>
               </div>
               <div class="col-lg-6 info d-flex flex-column align-items-stretch">
                 <i class="bx bx-time-five"></i>
-                <h4>Working Hours</h4>
-                <p>Mon - Fri: 9AM to 5PM<br>Sunday: 9AM to 1PM</p>
+                <h4>Horario laboral</h4>
+                <p>Lunes - Viernes: 9AM to 5PM</p>
               </div>
             </div>
 
@@ -361,20 +369,29 @@
             <form  action="https://formspree.io/f/xvoereaa" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                  <label for="name">Nombre completo *</label>
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Ingrese su nombre completo" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <label for="email">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                  <label for="email">Email *</label>
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Ingrese su email" required>
                 </div>
               </div>
               <div class="form-group mt-3">
-                <label for="subject">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
+                <label for="subject">Motivo de la consulta *</label>
+                <select class="form-control" name="subject" id="subject" required>
+                    <option value="">Selecciona un motivo</option>
+                    <option value="Asesoría personalizada">Asesoría personalizada</option>
+                    <option value="Pruebas de software">Pruebas de software</option>
+                    <option value="Crear estrategias de pruebas en equipo de calidad">Crear estrategias de pruebas en equipo de calidad</option>
+                    <option value="Capacitación de equipo de calidad">Capacitación de equipo de calidad</option>
+                    <option value="Implementación de automatización en equipo de calidad">Implementación de automatización en equipo de calidad</option>
+                    <option value="Otros">Otros</option>
+                </select>
+            </div>
+            
               <div class="form-group mt-3">
-                <label for="message">Message</label>
+                <label for="message">Descripcion de la consulta *</label>
                 <textarea class="form-control" name="message" rows="8" required></textarea>
               </div>
               <div class="my-3">
@@ -382,7 +399,7 @@
                 <div class="error-message"> Error</div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
+              <div class="text-center"><button type="submit">Solicitar Consulta</button></div>
             </form>
           </div>
 
@@ -400,52 +417,41 @@
         <div class="row">
 
           <div class="col-lg-3 col-md-6 footer-info">
-            <h3>Shuffle</h3>
+            <h3>Senior Quality Assurance/Quality Control Software </h3>
             <p>
-              A108 Adam Street <br>
-              NY 535022, USA<br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              Rio Negro <br>
+              Antioquia, Colombia<br><br>
+              <strong>WhatsApp:</strong> +57 305 224 3948<br>
+              <strong>Email:</strong> luiscarlosmarca@gmail.com<br>
             </p>
             <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+              <a href="https://github.com/luiscarlosmarca" target="_blank" class="GitHub"><i class="bx bxl-github"></i></a>
+              <a href="https://www.linkedin.com/in/luis-carlos-marin-campos/" target="_blank" class="linkedin"><i class="bx bxl-linkedin"></i></a>
             </div>
           </div>
 
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            <h4>Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Iniciar</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#skills">Habilidades</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#services">Servicios</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Solicitar Consulta</a></li>
             </ul>
           </div>
-
+      
           <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+            <h4>Nuestros Servicios</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Asesoria personalizada</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Pruebas de software</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Estrategia de pruebas</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Pruebas automatizadas</a></li>
+             
             </ul>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
-
-          </div>
+        
 
         </div>
       </div>
@@ -453,14 +459,14 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Shuffle</span></strong>. All Rights Reserved
+        &copy; Copyright <strong><span>Luis Carlos Marin Campos</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/bootstrap-3-one-page-template-free-shuffle/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        Designed by <a href="https://qaxpert.com/">QAXPERT</a>
       </div>
     </div>
   </footer><!-- End Footer -->
